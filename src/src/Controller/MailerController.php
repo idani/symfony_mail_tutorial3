@@ -20,21 +20,20 @@ class MailerController extends AbstractController
     public function index(MailerInterface $mailer)
     {
 
-        mb_language("uni") ;
-        mb_internal_encoding("UTF-8") ;
-        $subject = mb_encode_mimeheader('日本語のサブジェクトになります。長くなると文字化けするという話もありますので、長く書いてみます。これぐらい長いとどうかな？');
-        $subject = str_replace("\r\n", '', $subject);
+        $email = (new TemplatedEmail())
+            ->from('fabien@example.com')
+            ->to(new Address('ryan@example.com'))
+            ->subject('Thanks for signing up!')
 
-        $headers = (new Headers())
-            ->addMailboxListHeader('From', [new Address('hello@example.com', mb_encode_mimeheader('送信者名'))])
-            ->addMailboxListHeader('To', [new Address('you@example.com', mb_encode_mimeheader('受信者名'))])
-            ->addTextHeader('Subject', $subject)
+            // path of the Twig template to render
+            ->htmlTemplate('emails/signup.html.twig')
 
+            // pass variables (name => value) to the template
+            ->context([
+                'expiration_date' => new \DateTime('+7 days'),
+                'username' => 'foo',
+            ])
         ;
-
-        $body = $this->render('emails/symfony.txt.twig');
-        $textContent = new TextPart($body, 'utf-8', 'plain', 'base64');
-        $email = new Message($headers, $textContent);
 
         $mailer->send($email);
 
