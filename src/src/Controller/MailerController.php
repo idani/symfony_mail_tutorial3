@@ -33,6 +33,7 @@ class MailerController extends AbstractController
                 'expiration_date' => new \DateTime('+7 days'),
                 'username' => 'foo',
             ])
+            ->textTemplate('emails/signup.txt.twig')
         ;
 
         $mailer->send($email);
