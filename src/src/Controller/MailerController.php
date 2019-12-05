@@ -26,7 +26,7 @@ class MailerController extends AbstractController
             ->subject('Thanks for signing up!')
 
             // path of the Twig template to render
-            ->htmlTemplate('emails/signup.html.twig')
+//            ->htmlTemplate('emails/signup.html.twig')
 
             // pass variables (name => value) to the template
             ->context([
