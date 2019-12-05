@@ -1,0 +1,110 @@
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:encodeWords(121):'=?UTF-8?B?5pel5pys6Kqe44Gu44K144OW44K444Kn44Kv44OI44Gr44Gq44KK44G+44GZ?=
+ =?UTF-8?B?44CC6ZW344GP44Gq44KL44Go5paH5a2X5YyW44GR44GZ44KL44Go44GE44GG?=
+ =?UTF-8?B?6Kmx44KC44GC44KK44G+44GZ44Gu44Gn44CB6ZW344GP5pu444GE44Gm44G/?=
+ =?UTF-8?B?44G+44GZ44CC44GT44KM44GQ44KJ44GE6ZW344GE44Go44Gp44GG44GL44Gq?=
+ =?UTF-8?B?77yf?='
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'=?UTF-8?B?5pel5pys6Kqe44Gu44K144OW44K444Kn44Kv44OI44Gr44Gq44KK44G+44GZ?=
+'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'日本語のサブジェクトになります'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):true
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):' =?UTF-8?B?44CC6ZW344GP44Gq44KL44Go5paH5a2X5YyW44GR44GZ44KL44Go44GE44GG?=
+'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):' 。長くなると文字化けするという'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):true
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):' =?UTF-8?B?6Kmx44KC44GC44KK44G+44GZ44Gu44Gn44CB6ZW344GP5pu444GE44Gm44G/?=
+'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):' 話もありますので、長く書いてみ'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):true
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):' =?UTF-8?B?44G+44GZ44CC44GT44KM44GQ44KJ44GE6ZW344GE44Go44Gp44GG44GL44Gq?=
+'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):' ます。これぐらい長いとどうかな'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):true
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):' =?UTF-8?B?77yf?='
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):' ？'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'=?UTF-8?B?5pel5pys6Kqe44Gu44K144OW44K444Kn44Kv44OI44Gr44Gq44KK44G+44GZ?=
+ =?UTF-8?B?44CC6ZW344GP44Gq44KL44Go5paH5a2X5YyW44GR44GZ44KL44Go44GE44GG?=
+ =?UTF-8?B?6Kmx44KC44GC44KK44G+44GZ44Gu44Gn44CB6ZW344GP5pu444GE44Gm44G/?=
+ =?UTF-8?B?44G+44GZ44CC44GT44KM44GQ44KJ44GE6ZW344GE44Go44Gp44GG44GL44Gq?=
+'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'日本語のサブジェクトになります。長くなると文字化けするという話もありますので、長く書いてみます。これぐらい長いとどうかな'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):true
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):' =?UTF-8?B?77yf?='
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):' ？'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:encodeWords(121):'=?UTF-8?B?5pel5pys6Kqe44Gu44K144OW44K444Kn44Kv44OI44Gr44Gq44KK44G+44GZ?=
+ =?UTF-8?B?44CC6ZW344GP44Gq44KL44Go5paH5a2X5YyW44GR44GZ44KL44Go44GE44GG?=
+ =?UTF-8?B?6Kmx44KC44GC44KK44G+44GZ44Gu44Gn44CB6ZW344GP5pu444GE44Gm44G/?=
+ =?UTF-8?B?44G+44GZ44CC44GT44KM44GQ44KJ44GE6ZW344GE44Go44Gp44GG44GL44Gq?=
+ =?UTF-8?B?77yf?='
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'=?UTF-8?B?5pel5pys6Kqe44Gu44K144OW44K444Kn44Kv44OI44Gr44Gq44KK44G+44GZ?=
+'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'日本語のサブジェクトになります'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):true
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):' =?UTF-8?B?44CC6ZW344GP44Gq44KL44Go5paH5a2X5YyW44GR44GZ44KL44Go44GE44GG?=
+'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):' 。長くなると文字化けするという'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):true
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):' =?UTF-8?B?6Kmx44KC44GC44KK44G+44GZ44Gu44Gn44CB6ZW344GP5pu444GE44Gm44G/?=
+'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):' 話もありますので、長く書いてみ'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):true
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):' =?UTF-8?B?44G+44GZ44CC44GT44KM44GQ44KJ44GE6ZW344GE44Go44Gp44GG44GL44Gq?=
+'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):' ます。これぐらい長いとどうかな'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):true
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):' =?UTF-8?B?77yf?='
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):' ？'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'=?UTF-8?B?5pel5pys6Kqe44Gu44K144OW44K444Kn44Kv44OI44Gr44Gq44KK44G+44GZ?=
+ =?UTF-8?B?44CC6ZW344GP44Gq44KL44Go5paH5a2X5YyW44GR44GZ44KL44Go44GE44GG?=
+ =?UTF-8?B?6Kmx44KC44GC44KK44G+44GZ44Gu44Gn44CB6ZW344GP5pu444GE44Gm44G/?=
+ =?UTF-8?B?44G+44GZ44CC44GT44KM44GQ44KJ44GE6ZW344GE44Go44Gp44GG44GL44Gq?=
+'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'日本語のサブジェクトになります。長くなると文字化けするという話もありますので、長く書いてみます。これぐらい長いとどうかな'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):true
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):' =?UTF-8?B?77yf?='
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):' ？'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:encodeWords(121):'1.0'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'1.0'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'1.0'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'1.0'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'1.0'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:encodeWords(121):'1.0'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'1.0'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'1.0'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'1.0'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'1.0'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:encodeWords(121):'text/plain'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'text/plain'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'text/plain'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'text/plain'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'text/plain'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:encodeWords(121):'text/plain'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'text/plain'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'text/plain'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'text/plain'
+[05-Dec-2019 10:29:08 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'text/plain'
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:encodeWords(121):'base64'
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'base64'
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'base64'
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'base64'
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'base64'
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:encodeWords(121):'base64'
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'base64'
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'base64'
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(153):'base64'
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(154):'base64'
+[05-Dec-2019 10:29:09 Asia/Tokyo] 1d2:/var/www/html/vendor/symfony/mime/Header/AbstractHeader.php:tokenNeedsEncoding(155):false
