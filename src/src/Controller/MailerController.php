@@ -11,30 +11,35 @@ use Symfony\Component\Mime\Header\Headers;
 use Symfony\Component\Mime\Message;
 use Symfony\Component\Mime\Part\TextPart;
 use Symfony\Component\Routing\Annotation\Route;
+use Twig\Environment;
 
 class MailerController extends AbstractController
 {
     /**
      * @Route("/mailer", name="mailer")
      */
-    public function index(MailerInterface $mailer)
+    public function index(MailerInterface $mailer, Environment $twig)
     {
 
-        $email = (new TemplatedEmail())
-            ->from('fabien@example.com')
-            ->to(new Address('ryan@example.com'))
-            ->subject('Thanks for signing up!')
+        mb_language("uni");
+        mb_internal_encoding("UTF-8");
 
-            // path of the Twig template to render
-//            ->htmlTemplate('emails/signup.html.twig')
+        $subject = mb_encode_mimeheader('Thanks for signing up! 登録してくれてありがとうございます！！');
+        $subject = str_replace("\r\n", '', $subject);
 
-            // pass variables (name => value) to the template
-            ->context([
-                'expiration_date' => new \DateTime('+7 days'),
-                'username' => 'foo',
-            ])
-            ->textTemplate('emails/signup.txt.twig')
+        $headers = (new Headers())
+            ->addMailboxListHeader('From', [new Address('hello@example.com', mb_encode_mimeheader('送信者名'))])
+            ->addMailboxListHeader('To', [new Address('you@example.com', mb_encode_mimeheader('受信者名'))])
+            ->addTextHeader('Subject', $subject)
         ;
+
+        $body = $twig->render('emails/signup.txt.twig', [
+            'expiration_date' => new \DateTime('+7 days'),
+            'username' => 'foo',
+            'email' => 'you@example.com',
+        ]);
+        $textContent = new TextPart($body, 'utf-8', 'plain', 'base64');
+        $email = new Message($headers, $textContent);
 
         $mailer->send($email);
 
