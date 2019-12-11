@@ -33,7 +33,29 @@ class MailerController extends AbstractController
             ->addTextHeader('Subject', $subject)
         ;
 
-        $body = $twig->render('emails/signup.txt.twig', [
+        $twigEmailTemplate =<<<EOL
+Welcome !
+ようこそ ！
+
+    これはTwigテンプレートを変数から読み込んでレンダリングしたメールです。
+
+    You signed up as {{ username }} the following email:
+    次のメールアドレスで{{ username }}としてサインアップしました。
+
+    {{ email }}
+
+
+    Click here to activate your account
+    アカウントを有効にするにはここをクリックしてください
+
+    http://www.example.com/xxxxxxxxxxx
+    (this link is valid until {{ expiration_date|date('F jS') }})
+    （このリンクは、{{ expiration_date|date('F jS') }}まで有効です。
+
+EOL;
+
+        $template = $twig->createTemplate($twigEmailTemplate);
+        $body = $template->render([
             'expiration_date' => new \DateTime('+7 days'),
             'username' => 'foo',
             'email' => 'you@example.com',
